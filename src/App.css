@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.nav-link-container {
+  background: #282828;
+  height: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-link-home {
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container-components {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-align-left {
+  text-align: left;
+}
+
+.font-weight {
+  font-weight: 900;
+}
+
+.ul {
+  display: grid;
+}
+
+.ul > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+}
+
+.ul > *:last-child {
+  justify-self: left;
+}
+
+/* Make Fancy */
+.li {
+  display: inline-block;
+  margin: 1px;
+  padding: 5px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.description-text {
+  color: gray;
 }
